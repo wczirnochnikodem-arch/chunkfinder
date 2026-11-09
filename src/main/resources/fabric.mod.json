@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sus-chunk-finder",
+  "version": "${version}",
+  "name": "Sus Chunk Finder",
+  "description": "Client-side mod: Suspicion Score (0-100) dla chunkow - pomaga znajdowac ukryte bazy. Dziala bez Meteor Client.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.suschunkfinder.SusChunkFinderMod"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21",
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*"
+  }
+}
